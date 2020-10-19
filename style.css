@@ -1,0 +1,178 @@
+/* CSS Document */
+
+/* RESET */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* Fin de resset */
+
+/* Mise en forme générale*/
+
+body {
+	font-family: arial, verdana, sans-serif;
+	background-image: url("img/back-cover.jpg");
+	background-repeat: no-repeat;
+}
+
+h1 h2 h3 p img ul {
+	padding-left: 5px;
+}
+
+h1 {
+	font-size: 24px;
+	margin: auto;
+}
+
+h2 {
+	font-size: 20px;
+	margin: 30px 0 15px 0;
+}
+h3 {
+	font-size: 18px;
+	margin: 30px 0 15px 0;
+} 
+
+p {
+	font-size: 14px;
+	padding-bottom: 15px;
+}
+/* Fin de mise en forme générale*/
+
+/* Mise en page du fond de texte */
+
+.wrapper {
+	background-color: hsla(358,28%, 95%, 0.85);
+	width: 990px;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+.clear {
+	clear: both;
+}
+
+/* Fin de Mise en page du fond de texte */
+
+/* Mise en page du logo */
+
+.logo {
+	display: block;
+	width: 278px;
+	height: 96px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px 10px;
+		
+}
+
+/* Fin de Mise en page du logo */
+
+/* Navigation */
+
+nav ul {
+	text-align: left;
+	font-weight: bold;
+	border-bottom: 2px solid #000000;
+	border-top: 2px solid #000000;
+	padding: 5px;
+	
+}
+nav li {
+	text-decoration: none;
+	display: inline;
+}
+
+nav a {
+	padding: 0px 10px;
+	color: #000000;
+	text-decoration: none;
+	border-right: 1px #000000 solid;
+	
+	
+}
+
+nav a:hover {
+	color: #d86c0c;
+	text-decoration: none;
+}
+
+/* Fin Navigation */
+
+aside {
+	text-align: right; 
+	color: grey;
+	font-style: italic;
+	padding: 10px;
+}
+
+/* Colonne gauche */
+
+.colonne_g {
+	width: 280px;
+	padding: 0 15px;
+	float: left;
+}
+
+/* Fin Colonne gauche */
+
+/* Colonne droite */
+
+.colonne_d {
+	width: 640px;
+	padding: 0 15px;
+	margin-left: 10px;
+	float: left;
+}
+
+.date {
+	text-align: left;
+	font-style: italic;
+}
+
+/* Fin de colonne droite */
+
+/* Vignettes */
+
+.container_vignette {
+	border-top: 3px solid #000000;
+	padding: 10px 0px;
+}
+
+.vignette {
+	float: left;
+	width: 200px;
+	height: 150px;
+	margin: 5px;
+	padding: 30px 0px;
+}
+
+.vignette p {
+	text-align: center;
+}
+
+.vignette a {
+	text-decoration: none;
+	color: #b32;
+}
+
+.vignette a:hover {
+	color: dimgray;
+}
+
+/* Fin Vignette */
+
+/* Pied de page */
+
+footer {
+	text-align: right;
+	padding: 20px 10px;
+	border-top: 3px solid #000000;
+}
+
+/* Fin de pied de page */
